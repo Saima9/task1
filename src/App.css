@@ -1,4 +1,4 @@
-.App {
+padding: 1rem;.App {
   font-family: 'Segoe UI', sans-serif;
   max-width: 600px;
   margin: auto;
@@ -26,7 +26,7 @@
 /* Responsive */
 @media (max-width: 480px) {
   .App {
-   
+   padding: 1rem;
   }
 
   .toggle-mode {
