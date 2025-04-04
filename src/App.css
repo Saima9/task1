@@ -1,4 +1,4 @@
-padding: 1rem;.App {
+.App {
   font-family: 'Segoe UI', sans-serif;
   max-width: 600px;
   margin: auto;
@@ -12,6 +12,15 @@ padding: 1rem;.App {
   background-color: #121212;
   color: #e0e0e0;
 }
+.toggle-mode {
+   margin: 0.5rem;
+   padding: 0.5rem 0.5rem;
+   background-color: #5a2a6b;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
 
 
 
@@ -20,7 +29,8 @@ padding: 1rem;.App {
   .App {
    padding: 1rem;
   }
-
+.toggle-mode {
+    width: 40%;
  
   }
 }
