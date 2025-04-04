@@ -24,7 +24,7 @@
 }
 
 /* Responsive */
-@media (max-width: 480px) {
+@media (max-width: 460px) {
   .App {
     padding: 1rem;
   }
