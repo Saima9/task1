@@ -9,13 +9,11 @@ import AboutUs from "./pages/AboutUs";
 import "./App.css";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  
 
   return (
     <div className={`App ${darkMode ? "dark" : ""}`}>
-      <button className="toggle-mode" onClick={() => setDarkMode(!darkMode)}>
-        {darkMode ? "🌞 Light Mode" : "🌙 Dark Mode"}
-      </button>
+      
       <Router>
       <Routes>
         <Route path="/" element={<Home />} />
