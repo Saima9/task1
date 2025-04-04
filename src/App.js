@@ -9,6 +9,7 @@ import AboutUs from "./pages/AboutUs";
 import "./App.css";
 
 function App() {
+   const [darkMode, setDarkMode] = useState(false);
   
 
   return (
