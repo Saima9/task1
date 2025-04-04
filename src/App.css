@@ -24,12 +24,12 @@
 }
 
 /* Responsive */
-@media (max-width: 560px) {
+@media (max-width: 480px) {
   .App {
     padding: 1rem;
   }
 
   .toggle-mode {
-    width: 100%;
+    width: 50%;
   }
 }
