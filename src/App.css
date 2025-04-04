@@ -13,15 +13,7 @@ padding: 1rem;.App {
   color: #e0e0e0;
 }
 
-.toggle-mode {
-  margin: 0.5rem;
-  padding: 0.5rem 0.5rem;
-  background-color: #5a2a6b;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
+
 
 /* Responsive */
 @media (max-width: 480px) {
@@ -29,7 +21,6 @@ padding: 1rem;.App {
    padding: 1rem;
   }
 
-  .toggle-mode {
-    width: 50%;
+ 
   }
 }
